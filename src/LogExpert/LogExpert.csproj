@@ -198,7 +198,6 @@
     <Compile Include="Classes\PaintHelper.cs" />
     <Compile Include="Classes\ParamParser.cs" />
     <Compile Include="Classes\Persister\Persister.cs" />
-    <Compile Include="Classes\Columnizer\ClfColumnizer.cs" />
     <Compile Include="Config\ConfigManager.cs" />
     <Compile Include="Dialogs\BookmarkWindow.cs">
       <SubType>Form</SubType>
@@ -270,7 +269,6 @@
     <Compile Include="Controls\LogTabWindow\LogTabWindow.designer.cs">
       <DependentUpon>LogTabWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entities\DefaultLogfileColumnizer.cs" />
     <Compile Include="Dialogs\AboutBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -458,9 +456,6 @@
     <Compile Include="Classes\SysoutPipe.cs" />
     <Compile Include="Classes\SystemInfo.cs" />
     <Compile Include="Classes\TimeSpreadCalculator.cs" />
-    <Compile Include="Classes\Columnizer\TimestampColumnizer.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Classes\TimeSyncList.cs" />
     <Compile Include="Classes\Util.cs" />
     <Compile Include="Classes\Win32.cs" />

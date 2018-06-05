@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
-//using System.Linq;
 using System.Windows.Forms;
 
 namespace LogExpert
@@ -43,6 +43,7 @@ namespace LogExpert
                     this.columnizerList.Add(col);
                 }
             }
+            this.columnizerList = this.columnizerList.ToList().OrderBy(x=> x.Text).ToList();
             foreach (ILogLineColumnizer col in this.columnizerList)
             {
                 this.filterComboBox.Items.Add(col);

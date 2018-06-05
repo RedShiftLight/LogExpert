@@ -19,6 +19,8 @@ namespace LogExpert
     {
         #region Public methods
 
+        string Text { get; }
+
         /// <summary>
         /// Returns the name for the columnizer. This name is used for the columnizer selection dialog.
         /// </summary>

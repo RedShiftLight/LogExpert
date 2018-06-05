@@ -443,19 +443,6 @@ namespace LogExpert
         {
             return this.columnCache.GetColumnsForLine(this.logFileReader, lineNumber, this.CurrentColumnizer,
                 this.ColumnizerCallbackObject);
-
-            //string line = this.logFileReader.GetLogLine(lineNumber);
-            //if (line != null)
-            //{
-            //  string[] cols;
-            //  this.columnizerCallback.LineNum = lineNumber;
-            //  cols = this.CurrentColumnizer.SplitLine(this.columnizerCallback, line);
-            //  return cols;
-            //}
-            //else
-            //{
-            //  return null;
-            //}
         }
 
         internal void RefreshAllGrids()
